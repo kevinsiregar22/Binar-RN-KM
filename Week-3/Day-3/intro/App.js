@@ -1,6 +1,8 @@
-import {View, Text, TouchableOpacity} from 'react-native';
+// import component dari react dan react0native
 import React from 'react';
+import {View, Text, TouchableOpacity} from 'react-native';
 
+//function component
 const App = () => {
   return (
     <View>
