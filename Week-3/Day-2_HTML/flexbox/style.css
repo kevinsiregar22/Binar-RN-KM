@@ -1,0 +1,29 @@
+/* flexbox */
+/* semua tentang pembungkusnya */
+
+.navbar {
+  background: lightgreen;
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.kotak {
+  height: 80px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: lightcyan;
+}
+
+.kotak1 {
+  height: 80px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: skyblue;
+}
